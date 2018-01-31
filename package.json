@@ -1,0 +1,22 @@
+{
+  "name": "zeimanUsingBootstrap",
+  "version": "1.0.0",
+  "description": "\"# zeiman\"",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakef/zeiman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakef/zeiman/issues"
+  },
+  "homepage": "https://github.com/rakef/zeiman#readme"
+}
