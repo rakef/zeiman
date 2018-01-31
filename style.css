@@ -1,0 +1,57 @@
+* {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #fffde9;
+    /* color: aliceblue; */
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(179, 203, 247);
+}
+
+.btnContainer a::after {
+content : " | " ;
+color: black;
+}
+
+.btnContainer :last-child::after {
+content: "";
+}
+
+.btnContainer {
+    padding-bottom: 10px;
+}
+
+.story p {
+    text-align: right;
+}
+
+.align-right {
+    text-align: right;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.navigate {
+    font-size: 50px;
+}
+
+.navigate:shover {
+    cursor: pointer;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article img {
+    object-fit: cover;
+
+}
