@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "\"# zeiman\"",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.2"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node server.js"
