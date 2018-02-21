@@ -1,3 +1,4 @@
+
 img {
     border-radius: 10px;
     text-align: left;
@@ -12,9 +13,21 @@ img {
     padding: 10px;
     border-radius: 20px;
     padding-bottom: 20px;
+    
     /* overflow: hidden; */
 }
 
 .row {
     justify-content: center;
 }
+
+
+@media screen and (max-width: 986px) {
+
+    .col-5 {
+        flex: none;
+        max-width: 100%;
+    }
+ }
+
+ 
