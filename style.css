@@ -6,6 +6,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;    
+    color: rgb(48, 60, 108);
+
     /* background-color: #fffde9; */
 }
 
@@ -68,4 +70,37 @@ img {
     max-width: 100%;
     min-width: 20%;
     height: auto;
+}
+
+.btn {
+    background-color: #fbe8a6;
+    float: left;
+    line-height: 15px;
+    box-shadow: 1px 1px 1px grey;
+    transition-property: background-color;
+    transition-duration: .2s;
+}
+
+.btn a {
+    color: #303c6c;
+    transition-property: color;
+    transition-duration: .2s;
+}
+
+.btn:hover {
+    background-color: #f4976c;
+}
+
+.btn a:hover {
+    color: #fbe8a6
+}
+.storyTitle p {
+    padding-bottom: 10px;
+}
+/* theme colors */
+.classHere {
+    color: #fbe8a6;
+    color: #303c6c;
+    color: #b4dfe5;
+    color: #f4976c;
 }
