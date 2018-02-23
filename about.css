@@ -44,3 +44,7 @@ h1 {
     text-align: center;
     color: rgb(48, 60, 108);
 }
+
+img {
+    height: 50%;
+}
