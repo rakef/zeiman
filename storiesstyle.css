@@ -12,9 +12,34 @@ img {
     height: 400px;
     padding: 10px;
     border-radius: 20px;
-    padding-bottom: 20px;
-    
-    /* overflow: hidden; */
+    padding-bottom: 20px;    
+}
+
+
+/* .storyTitle h3:hover {
+    color: pink;
+} */
+
+a {
+    color: rgb(48, 60, 108) 
+}
+a:hover {
+    color: rgb(48, 60, 108) 
+}
+
+.pictue {
+    display: inline-block; /* shrink wrap to image */
+    overflow: hidden; /* hide the excess */
+    border-radius: 20px;
+}
+
+img {
+    transition: all .2s ease-in-out;
+    overflow: hidden;     
+}
+
+img:hover {
+     transform: scale(1.1); 
 }
 
 .row {
@@ -27,6 +52,10 @@ img {
     .col-5 {
         flex: none;
         max-width: 100%;
+    }
+
+    body {
+        font-size: 14px;
     }
  }
 

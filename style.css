@@ -22,6 +22,11 @@ a:hover {
     color: rgb(179, 203, 247);
 }
 
+.btnContainer a{
+    color: #f4976c;
+    font-size: 20px;
+}
+
 .btnContainer a::after {
 content : " | " ;
 color: black;
@@ -53,8 +58,16 @@ img {
     font-size: 50px;
 }
 
-.navigate:shover {
+.page-header h1 a:hover {
+    color: #007bff;
+}
+
+.navigate:hover {
     cursor: pointer;
+}
+
+.fas {
+    color: rebeccapurple;
 }
 
 .article {
@@ -97,6 +110,8 @@ img {
 .storyTitle p {
     padding-bottom: 10px;
 }
+
+
 /* theme colors */
 .classHere {
     color: #fbe8a6;
@@ -104,3 +119,4 @@ img {
     color: #b4dfe5;
     color: #f4976c;
 }
+
