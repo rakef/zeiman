@@ -46,7 +46,7 @@ img:hover {
     justify-content: center;
 }
 
-
+/* mobile */
 @media screen and (max-width: 986px) {
 
     .col-5 {
@@ -55,7 +55,7 @@ img:hover {
     }
 
     body {
-        font-size: 16px;
+        font-size: 17px;
     }
  }
 
